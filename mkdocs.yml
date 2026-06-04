@@ -1,16 +1,15 @@
-site_name: Htjozvh2  # نام سایت شما
+site_name: Htjozvh2
 site_url: https://ghasemnazemi-cmd.github.io/Htjozvh2/
 
 theme:
   name: material
-  language: fa  # برای راست‌چین شدن و زبان فارسی
-  
-  # --- اضافه کردن فاوآیکون در این قسمت ---
+  language: fa
+  direction: rtl
+  # آدرس دقیق عکس در پوشه assets
   favicon: assets/favicon.png
-  logo: assets/favicon.png # اگر دوست دارید لوگوی بالای سایت هم همین باشد
+  logo: assets/favicon.png
   
   palette:
-    # تنظیمات رنگ برای هماهنگی با آیکون جدید
     - scheme: default
       primary: deep orange
       accent: blue
@@ -22,9 +21,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - search.suggest
-    - search.highlight
 
-# بخش‌های دیگر فایل شما (مثل nav) در ادامه قرار می‌گیرند
 nav:
-  - خانه: index.md
-
+  - صفحه اصلی: index.md
